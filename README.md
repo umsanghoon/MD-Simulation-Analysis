@@ -117,9 +117,9 @@ MD-Simulation-Analysis/
 │       ├── 02_extract_Rg.sh
 │       └── 03_extract_Hbond.sh
 ├── plotting_R/
-│   ├── RMSD.R
-│   ├── Rg.R
-│   └── H-bond.R
+│   ├── RMSD_Analysis.R
+│   ├── Rg_Analysis.R
+│   └── H-bond_Analysis.R
 └── README.md
 
 ---
@@ -157,9 +157,9 @@ bash 02_extract_Rg.sh
 bash 03_extract_Hbond.sh
 
 Plot:
-source("RMSD.R")
-source("Rg.R")
-source("H-bond.R")
+source("RMSD_Analysis.R")
+source("Rg_Analysis.R")
+source("H-bond_Analysis.R")
 
 ---
 
